@@ -119,6 +119,8 @@ form button:hover {
 img {
   display: block;
   margin: auto;
+  width: 100%;
+  max-width: 500px;
 }
 
 .msg {
