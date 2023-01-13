@@ -5,6 +5,8 @@ const configuration = new Configuration({
 });
 const openai = new OpenAIApi(configuration);
 
+console.log('api key', process.env.OPENAI_API_KEY);
+
 const generateImage = async (req, res) => {
   const { prompt, size } = req.body;
 
