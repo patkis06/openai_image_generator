@@ -55,6 +55,7 @@ body {
   height: 450px;
   width: 100%;
   background: var(--primary-color);
+  padding: 0 40px;
 }
 
 .image-container {
@@ -77,15 +78,20 @@ body {
   width: 100%;
 }
 
+.form-control {
+  width: 100%;
+}
+
 .showcase form input,
 form select {
   font-size: 20px;
-  width: 500px;
-  max-width: 500px;
+  /* width: 500px;
+  max-width: 500px; */
   padding: 1rem;
   border: 1px solid #ccc;
   border-radius: 5px;
   margin-bottom: 1rem;
+  width: 100%;
 }
 
 form button {
